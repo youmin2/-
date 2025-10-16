@@ -39,7 +39,7 @@ a = list(map(int, input('숫자 10개를 입력하세요: ').split()))
 a.remove(min(a))
 a.remove(max(a))
 
-print(a)
+print(sum(a))
 
 #과제 17
 a = [10, 20, 30, 40, 30, 20, 10]
