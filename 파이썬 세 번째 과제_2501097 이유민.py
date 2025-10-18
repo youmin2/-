@@ -82,9 +82,10 @@ print(a)
 
 #과제 23
 a = input('본인의 성을 영어로 입력하세요: ')
-a_lower = a.lower()
+b = a.lower()
+c = b.rjust(10)
 
-print("%10s" % a_lower)
+print(c)
 
 #과제 24
 a = list(map(int, input('물품 가격을 세미콜론을 붙여 입력하세요: ').split(';')))
